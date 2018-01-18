@@ -15,10 +15,10 @@ public class Client {
         HanFeiZi hanFeiZi = new HanFeiZi();
         LiSi liSi = new LiSi();
         //观察早餐
-        Spy watchBreakFast = new Spy(hanFeiZi,liSi,"breakfast");
+        Spy watchBreakFast = new Spy(hanFeiZi, liSi,"breakfast");
         watchBreakFast.start();
 
-        Spy watchFun = new Spy(hanFeiZi,liSi,"fun");
+        Spy watchFun = new Spy(hanFeiZi, liSi,"fun");
         watchFun.start();
 //        Thread.sleep(1000);
         hanFeiZi.havaBreakfast();

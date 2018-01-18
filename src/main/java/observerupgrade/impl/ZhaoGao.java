@@ -1,4 +1,4 @@
-package observer.impl;
+package observerupgrade.impl;
 
 import observerupgrade.Observer;
 
@@ -7,12 +7,12 @@ import observerupgrade.Observer;
  * @Date 2018/1/18 22:40
  * @{description} xxxxx
  **/
-public class LiSi implements Observer {
+public class ZhaoGao implements Observer {
 
     public void update(String context) {
-        System.out.println("李斯开始观察韩非子活动了，并且要汇报。。。");
+        System.out.println("赵高：观察到韩非子活动了，并且要汇报。。。");
         this.reporttoQinShiHuang(context);
-        System.out.println("李斯汇报完毕。。。");
+        System.out.println("赵高汇报完毕。。。");
     }
 
     private void reporttoQinShiHuang(String reportContext) {

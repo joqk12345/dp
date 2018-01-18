@@ -30,7 +30,6 @@ public class Spy extends Thread {
         this.liSi = liSi;
         this.type = type;
     }
-
     @Override
     public void run() {
         while (true){
