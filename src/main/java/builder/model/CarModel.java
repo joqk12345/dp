@@ -1,4 +1,4 @@
-package builder;
+package builder.model;
 
 import java.util.ArrayList;
 
@@ -31,7 +31,7 @@ public abstract class CarModel {
                 this.stop();
             }else if(actionName.equalsIgnoreCase("alarm")){
                 this.alarm();
-            }else if(actionName.equalsIgnoreCase("engineBoom")){
+            }else if(actionName.equalsIgnoreCase("engine boom")){
                 this.engineBoom();
             }
         }

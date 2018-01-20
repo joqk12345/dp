@@ -1,4 +1,6 @@
-package builder;
+package builder.builder;
+
+import builder.model.CarModel;
 
 import java.util.ArrayList;
 
