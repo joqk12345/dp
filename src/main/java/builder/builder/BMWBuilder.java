@@ -15,12 +15,12 @@ public class BMWBuilder extends CarBuilder {
     private BMWModel bmwModel = new BMWModel();
 
     @Override
-    protected void setSequence(ArrayList<String> sequence) {
+    public void setSequence(ArrayList<String> sequence) {
         this.bmwModel.setSequence(sequence);
     }
 
     @Override
-    protected CarModel getCarModel() {
+    public CarModel getCarModel() {
         return bmwModel;
     }
 }

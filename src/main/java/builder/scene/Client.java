@@ -1,5 +1,6 @@
 package builder.scene;
 
+import builder.builder.BMWBuilder;
 import builder.builder.BenzBuilder;
 import builder.model.BMWModel;
 import builder.model.BenzModel;
@@ -24,5 +25,11 @@ public class Client {
         benzBuilder.setSequence(benzActionList);
         BenzModel benzModel = (BenzModel) benzBuilder.getCarModel();
         benzModel.run();
+        //bmw生产顺序
+        BMWBuilder bmwBuilder = new BMWBuilder();
+        bmwBuilder.setSequence(benzActionList);
+        BMWModel bmwModel = (BMWModel) bmwBuilder.getCarModel();
+        bmwModel.run();
+
     }
 }
